@@ -1,0 +1,15 @@
+.search-overlay, .search-body-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+    z-index: 5;
+}
+.search-body-overlay {
+    z-index: 4;
+}
+body.show .hs-input-block.d-flex {
+    z-index: 9;
+}

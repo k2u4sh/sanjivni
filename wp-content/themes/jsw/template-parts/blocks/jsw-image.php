@@ -1,0 +1,1 @@
+<img src="<?=get_field('image')?>" alt="" class="gap-bottom-sm">
